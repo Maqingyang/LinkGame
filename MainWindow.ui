@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>100</y>
+      <width>120</width>
+      <height>80</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="file">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <widget class="QMenu" name="menu">
+     <property name="title">
+      <string>存档</string>
+     </property>
+     <addaction name="save1"/>
+     <addaction name="save2"/>
+     <addaction name="save3"/>
+     <addaction name="save4"/>
+    </widget>
+    <widget class="QMenu" name="menu_2">
+     <property name="title">
+      <string>读档</string>
+     </property>
+     <addaction name="load1"/>
+     <addaction name="load2"/>
+     <addaction name="load3"/>
+     <addaction name="load4"/>
+    </widget>
+    <addaction name="menu"/>
+    <addaction name="menu_2"/>
+   </widget>
+   <widget class="QMenu" name="preference">
+    <property name="title">
+     <string>个性化</string>
+    </property>
+    <widget class="QMenu" name="menu_3">
+     <property name="title">
+      <string>背景</string>
+     </property>
+     <addaction name="back4"/>
+     <addaction name="back1"/>
+     <addaction name="back2"/>
+     <addaction name="back3"/>
+    </widget>
+    <widget class="QMenu" name="menu_4">
+     <property name="title">
+      <string>音乐</string>
+     </property>
+     <addaction name="actiontrip"/>
+     <addaction name="actionsunny"/>
+     <addaction name="actionHawaii"/>
+    </widget>
+    <addaction name="menu_3"/>
+    <addaction name="menu_4"/>
+   </widget>
+   <addaction name="file"/>
+   <addaction name="preference"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action1">
+   <property name="text">
+    <string>1</string>
+   </property>
+  </action>
+  <action name="action3">
+   <property name="text">
+    <string>2</string>
+   </property>
+  </action>
+  <action name="load1">
+   <property name="text">
+    <string>1</string>
+   </property>
+  </action>
+  <action name="load2">
+   <property name="text">
+    <string>2</string>
+   </property>
+  </action>
+  <action name="load3">
+   <property name="text">
+    <string>3</string>
+   </property>
+  </action>
+  <action name="load4">
+   <property name="text">
+    <string>4</string>
+   </property>
+  </action>
+  <action name="action4_2">
+   <property name="text">
+    <string>3</string>
+   </property>
+  </action>
+  <action name="action4_3">
+   <property name="text">
+    <string>4</string>
+   </property>
+  </action>
+  <action name="save1">
+   <property name="text">
+    <string>1</string>
+   </property>
+  </action>
+  <action name="save2">
+   <property name="text">
+    <string>2</string>
+   </property>
+  </action>
+  <action name="save3">
+   <property name="text">
+    <string>3</string>
+   </property>
+  </action>
+  <action name="save4">
+   <property name="text">
+    <string>4</string>
+   </property>
+  </action>
+  <action name="back4">
+   <property name="text">
+    <string>海洋</string>
+   </property>
+  </action>
+  <action name="back1">
+   <property name="text">
+    <string>星空</string>
+   </property>
+  </action>
+  <action name="back2">
+   <property name="text">
+    <string>银河</string>
+   </property>
+  </action>
+  <action name="back3">
+   <property name="text">
+    <string>晴空</string>
+   </property>
+  </action>
+  <action name="actiontrip">
+   <property name="text">
+    <string>Trip</string>
+   </property>
+  </action>
+  <action name="actionsunny">
+   <property name="text">
+    <string>Sunny</string>
+   </property>
+  </action>
+  <action name="actionHawaii">
+   <property name="text">
+    <string>Hawaii</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
